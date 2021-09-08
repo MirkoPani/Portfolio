@@ -8,9 +8,9 @@ import Vue from 'vue'
 export default Vue.extend({
   data() {
       return {
-        pageTitle: 'Mirko Pani - About',
-		heroTitle: "About",
-		heroSubtitle : 'Scopri qualcosa su di me'
+        pageTitle: 'Mirko Pani - Contatti',
+		heroTitle: "Contatti",
+		heroSubtitle : 'Mettiamoci in contatto!'
       }
     },
     head() {
