@@ -14,7 +14,7 @@ export default Vue.extend({
 	data() {
 			return {
 				pageTitle: 'Mirko Pani - Portfolio',
-				heroTitle: "Ciao &#129299;!",
+				heroTitle: "Ciao &#128512;!",
 				heroSubtitle : 'Mi chiamo <span class="text-green-300 font-bold">Mirko Pani</span>'
 			}
 		},
