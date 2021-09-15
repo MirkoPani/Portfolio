@@ -13,7 +13,7 @@ export default Vue.extend({
 		heroSubtitle : 'Le mie creazioni'
       }
     },
-    head() {
+    head(): any {
       return {
         title: this.pageTitle
       }

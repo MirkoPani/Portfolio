@@ -13,7 +13,7 @@ export default Vue.extend({
 		heroSubtitle : 'Mettiamoci in contatto!'
       }
     },
-    head() {
+    head(): any {
       return {
         title: this.pageTitle
       }
