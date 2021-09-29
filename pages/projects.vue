@@ -34,7 +34,7 @@ import Project from "./../types/Project";
 export default Vue.extend({
   data() {
     return {
-      ProjectCardpageTitle: "Mirko Pani - Progetti",
+      pageTitle: "Mirko Pani - Progetti",
       heroTitle: "Progetti personali",
       projects: [
         
