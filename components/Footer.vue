@@ -14,7 +14,7 @@
 			</div>
 			
 
-			<p class="mt-3 md:mt-0">Se le mie risorse ti sono state utili, puoi valutare un piccolo <TextHighlight><a class="underline hover:text-green-600" href="https://www.buymeacoffee.com/mirkopani">supporto</a></TextHighlight> :)</p>
+			<!--<p class="mt-3 md:mt-0">Se le mie risorse ti sono state utili, puoi valutare un piccolo <TextHighlight><a class="underline hover:text-green-600" href="https://www.buymeacoffee.com/mirkopani">supporto</a></TextHighlight> :)</p>-->
 		</div>
 
 	</section>

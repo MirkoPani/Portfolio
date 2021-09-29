@@ -31,10 +31,10 @@
 		<p class="text-4xl text-gray-200">Esperienza formativa</p>
 		<div>
 			<div class="py-4">
-				<p class="text-xl">Sviluppatore @ <TextHighlight><a target="_blank" href="https://www.es-tek.it/">Es-Tek</a></TextHighlight></p>
+				<p class="text-xl">Sviluppatore @ <TextHighlight><a target="_blank" href="https://www.es-tek.it/">Es-Tek</a></TextHighlight><span class="ml-2 text-base">(2018 - Oggi)</span></p>
 				<ul class="list-outside mt-2">
-					<li>Lavorato con un team internazionale su software già esistenti, integrando nuove funzionalità e bug fix</li>
-					<li>Utilizzato una moltitudine di linguaggi, piattaforme e framework in ambito client: <TechnologyHighlight>C++</TechnologyHighlight>, <TechnologyHighlight>OpenCV</TechnologyHighlight>, <TechnologyHighlight>Qt</TechnologyHighlight>, <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>WPF</TechnologyHighlight></li>
+					<li>Collaborazione con un team di sviluppatori internazionale su software già esistenti, integrando nuove funzionalità e bug fix</li>
+					<li>Utilizzato una moltitudine di linguaggi, piattaforme e framework in ambito client per lo sviluppo di software per il settore CAD e controllo qualità: <TechnologyHighlight>C++</TechnologyHighlight>, <TechnologyHighlight>OpenCV</TechnologyHighlight>, <TechnologyHighlight>Qt</TechnologyHighlight>, <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>WPF</TechnologyHighlight></li>
 					<li>Utilizzato una moltitudine di linguaggi, piattaforme e framework in ambito web: <TechnologyHighlight>Wordpress</TechnologyHighlight>, <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>Asp.Net Core</TechnologyHighlight>, <TechnologyHighlight>EF Core</TechnologyHighlight>, <TechnologyHighlight>Blazor</TechnologyHighlight>, <TechnologyHighlight>HTML e CSS</TechnologyHighlight></li>
 					<li>Progettato e sviluppato diversi prodotti software nelle loro fasi iniziali</li>
 					<li>Esperienza in CI/CD: <TechnologyHighlight>Git</TechnologyHighlight>, <TechnologyHighlight>Docker</TechnologyHighlight>, <TechnologyHighlight>Jenkins</TechnologyHighlight>, <TechnologyHighlight>Coverity</TechnologyHighlight>, <TechnologyHighlight>Unit test</TechnologyHighlight>, <TechnologyHighlight>Code coverage</TechnologyHighlight></li>
@@ -42,10 +42,11 @@
 				</ul>
 			</div>
 			<div class="py-4">
-				<p class="text-xl">Tirocinio @ <TextHighlight><a target="_blank" href="https://www.fbk.eu/it/">Fondazione Bruno Kessler (FBK)</a></TextHighlight></p>
+				<p class="text-xl">Tirocinio @ <TextHighlight><a target="_blank" href="https://www.fbk.eu/it/">Fondazione Bruno Kessler (FBK)</a></TextHighlight> <span class="ml-2 text-base">(Fine 2017 - 2018)</span></p>
 				<ul class="list-inside mt-2">
 					<li>Studio e realizzazione tesi di laurea sotto la supervisione di un ricercatore</li>
 					<li>Implementato un proof of concept per la trasmissione di dati ottenuti da un dispositivo Leap Motion in un ambiente a realtà virtuale (VR) multiutente su smartphone.</li>
+					<li>Studio e realizzazione di tecniche di ottimizzazione per la tramissione di dati tramite LOD (Level of Detail)</li>
 					<li>Dai risultati ottenuti, collaborato alla stesura di un paper scientifico in inglese, discusso ad una conferenza e successivamente pubblicato in una rivista, dal titolo <TextHighlight><a class="underline" target="_blank" href="https://www.researchgate.net/publication/326370856_Distributed_Data_Exchange_with_Leap_Motion_5th_International_Conference_AVR_2018_Otranto_Italy_June_24-27_2018_Proceedings_Part_II">"Distributed Data Exchange with Leap Motion"</a></TextHighlight></li>
 					<li>Esperienza in: <TechnologyHighlight>Unity3D</TechnologyHighlight>, <TechnologyHighlight>C#</TechnologyHighlight></li>
 				</ul>

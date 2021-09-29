@@ -15,8 +15,7 @@ import Vue from 'vue'
 export default Vue.extend({
 	props: {
 		heroTitle : String,
-		heroSubtitle : String,
-		heroDesc : String
+		heroSubtitle : String
 	}
 })
 </script>
