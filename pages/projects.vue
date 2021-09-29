@@ -53,6 +53,7 @@ export default Vue.extend({
           Date: "Settembre 2021",
           Desc: "<p>Prima versione del mio portfolio personale.</p><p>Realizzato utilizzando Vue per la gestione dei componenti, Nuxt per la struttura generale e il routing, e Tailwind CSS per l'aspetto grafico.</p>",
           BgColor: "bg-gray-900",
+		  CodeLink: "https://github.com/MirkoPani/Portfolio",
 		  Pills: ["Typescript", "Vue", "Nuxt.js", "Tailwind CSS"]
         },
 		{
