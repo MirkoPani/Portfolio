@@ -4,15 +4,16 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Portfolio',
+    title: 'Mirko Pani Portfolio',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'it'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { hid: 'description', name: 'description', content: 'Sito portfolio dello sviluppatore software Mirko Pani, Vicenza' },
+      { name: 'format-detection', content: 'telephone=no' },
+	  { hid: 'keywords', name: 'keywords', content: 'mirko, pani, sviluppo, sviluppatore, development, software, vicenza, veneto, asp.net, blazor, c#' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -44,5 +45,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  router:
+  {
+	  trailingSlash: undefined
+  },
+  loading: {
+	  color:'blue',
+	  height:'5px'
   }
 }

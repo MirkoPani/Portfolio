@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily :{
         'sans': '"Open Sans", Arial, sans-serif',
-        'inter': 'Inter, sans-serif'
+        'inter': 'Inter, sans-serif',
+		'pixel': '"PixelEmulator", sans-serif'
       }
     },
   },

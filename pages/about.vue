@@ -9,7 +9,8 @@
 			<p>Nel corso della mia carriera ho avuto modo di diplomarmi come 'Perito Capotecnico in Informatica' presso un istituto tecnico e di laurearmi con ottimi voti presso l'<TextHighlight>Università degli Studi di Trento</TextHighlight>, indirizzo Informatica.</p>
 			<p>Avendo avuto <TextHighlight>esperienze con numerosi linguaggi e framework</TextHighlight> in ambiti molto diversi, considero il mio punto di forza la <TextHighlight>versatilità</TextHighlight> e la <TextHighlight>capacità di apprendere e imparare velocemente</TextHighlight> una nuova tecnologia, linguaggio/framework o pattern che sia.
 			In questi anni di esperienza, <TextHighlight>ho ideato e sviluppato diversi progetti</TextHighlight>, sia in ambito desktop che web, che puoi consultare nella sezione apposita del sito.</p>
-			<p class="mt-5">Queste sono alcune delle tecnologie che ho utilizzato recentemente:</p>
+			<p>Al di fuori della mia carriera lavorativa, sono stato un animatore parrocchiale per oltre 5 anni, diventando successivamente responsabile del gruppo di animatori e decine di ragazzi. Questa esperienza mi ha fatto scoprire appieno il significato di <TextHighlight>gioco di squadra</TextHighlight>, di <TextHighlight>responsabilità</TextHighlight> e delle <TextHighlight>potenzialità</TextHighlight> che un gruppo unito può avere.</p>
+			<p class="mt-5">Queste sono alcune delle tecnologie che ho utilizzato maggiormente di recente:</p>
 			<ul class="grid grid-cols-2 gap-2 w-3/4 md:w-1/2 list-inside pt-3 mx-auto md:-mx-0 text-green-300 font-bold text-sm text-left">
 				<li>C#</li>
 				<li>WPF</li>

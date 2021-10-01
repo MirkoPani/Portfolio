@@ -5,4 +5,5 @@ export default class Project {
 	Desc : string = "";
 	BgColor: string = "";
 	Pills: string[] = new Array(0);
+	CodeLink: string = "";
 }
