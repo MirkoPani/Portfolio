@@ -34,7 +34,7 @@ export default Vue.extend({
 	"name": "My name is",
     "intro-1": "I'm a software developer currently living in Vicenza, Italy.",
 	"intro-2": "Welcome to my own personal portfolio!",
-	"intro-3": "Browse it to find more about me, my projects and my professional experience."
+	"intro-3": "Browse it to find out more about me, my projects and my professional experience."
   },
   "it": {
 	"hello" : "Ciao",
