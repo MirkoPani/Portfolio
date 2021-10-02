@@ -6,7 +6,7 @@
         src="~/assets/img/link.png"
         alt="legends of zelda link sprite"
       />
-      <p class="transform font-pixel">It's dangerous to go alone, take this!</p>
+      <p class="transform font-pixel text-center">It's dangerous to go alone, take this!</p>
     </div>
   </div>
 </template>

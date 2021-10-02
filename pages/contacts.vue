@@ -25,7 +25,7 @@
     </PageHero>
 
     <div class="flex justify-center mt-10">
-      <div class="flex flex-col mb-6 text-center">
+      <div class="flex flex-col mb-8 text-center">
         <ContactButton name="Github" url="https://github.com/MirkoPani" />
         <ContactButton name="LinkedIn" url="https://www.linkedin.com/in/mirko-pani"/>
         <ContactButton name="Instagram (personale)" url="https://www.instagram.com/mirkoopani"/>
