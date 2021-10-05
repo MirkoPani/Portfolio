@@ -7,8 +7,8 @@
 			<li class="inline p-2 hover:text-green-300 hover:underline transform transition duration-200 ease-in-out"><NuxtLink :to="localePath('/about')">About</NuxtLink></li>
 			<li class="inline p-2 hover:text-green-300 hover:underline transform transition duration-200 ease-in-out"><NuxtLink :to="localePath('/projects')">{{$t('projects')}}</NuxtLink></li>
 			<li class="inline p-2 hover:text-green-300 hover:underline transform transition duration-200 ease-in-out"><NuxtLink :to="localePath('/contacts')">{{$t('contacts')}}</NuxtLink></li>
-			<li v-if="$i18n.locale !== 'en'" class="inline p-2 hover:text-green-300 hover:underline transform transition duration-200 ease-in-out"><NuxtLink :to="switchLocalePath('en')"><img class="rounded-md inline w-8" alt="uk flag" src="~/assets/icons/uk.svg" /></NuxtLink></li>
-			<li v-if="$i18n.locale !== 'it'" class="inline p-2 hover:text-green-300 hover:underline transform transition duration-200 ease-in-out"><NuxtLink :to="switchLocalePath('it')"><img class="rounded-md inline w-8" alt="italy flag" src="~/assets/icons/italy.svg" /></NuxtLink></li>
+			<li v-if="$i18n.locale !== 'en'" class="block md:inline p-2 hover:text-green-300 hover:underline transform transition duration-200 ease-in-out"><NuxtLink :to="switchLocalePath('en')"><img class="rounded-md inline w-8" alt="uk flag" src="~/assets/icons/uk.svg" /></NuxtLink></li>
+			<li v-if="$i18n.locale !== 'it'" class="block md:inline p-2 hover:text-green-300 hover:underline transform transition duration-200 ease-in-out"><NuxtLink :to="switchLocalePath('it')"><img class="rounded-md inline w-8" alt="italy flag" src="~/assets/icons/italy.svg" /></NuxtLink></li>
 			</ul>
 		</nav>
 	</section>
