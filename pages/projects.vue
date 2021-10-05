@@ -75,10 +75,22 @@ export default Vue.extend({
           ImgSrc: require("../assets/img/dovesibutta.png"),
           Title: "Dove si butta",
           Date: this.$t("dovesibutta-date"),
-          Desc: this.$t("dovesibutta-desc"),
+          Desc: this.$t("dovesibutta-desc", {'applink': '<a target="_blank" class="font-bold text-green-500 underline" href="https://assistant.google.com/services/a/uid/00000068841c0a81">Dove si Butta</a>'}),
           BgColor: "bg-blue-800",
           CodeLink: "https://github.com/MirkoPani/DoveSiButta",
           Pills: ["Javascript", "Node.js", "Google Actions API", "Firebase"],
+        },
+		{
+          ImgSrc: require("../assets/img/leap.jpg"),
+          Title: "Distributed Data Exchange with Leap Motion",
+          Date: this.$t("leap-date"),
+          Desc: this.$t("leap-desc", 
+		  {
+			'link': '<a target="_blank" class="font-bold text-green-500 underline" href="https://tev.fbk.eu/distributedLeapMotion">',
+		  	'here': this.$t("here")
+		  }),
+          BgColor: "bg-blue-300",
+          Pills: ["C#", "Unity3D", "Sockets", "LaTex"],
         },
         {
           ImgSrc: require("../assets/img/partycast.png"),
@@ -116,9 +128,12 @@ export default Vue.extend({
 	"coldwar-date":"January 2021",
 	"coldwar-desc":"<p>Cold War is a simple multiplayer puzzle game that aims to simulate the experience of an Escape Room.</p><p>It consists of an interactive website with several interactive puzzles to be solved.</p><p>Every interaction by a user is shared with all instances in real time via SignalR. The back-end is managed by Asp.Net Core while the front-end has been implemented as a Blazor WebAssembly project.</p>",
     "dovesibutta-date": "September 2018",
-	"dovesibutta-desc": "<p>Dove Si Butta is an application for the Google Assistant.</p><p>It allows you to find out in which separate collection a particular type of waste should be disposed in. The operation is very simple, just indicate the name of the waste and Dove Si Butta will recommend the most appropriate disposal destination.</p><p>The application was built using the Google Actions Console to achieve user interaction, while the logic is handled by a cloud function that analyses the query and retrieves data from a Firebase instance.</p>",
+	"dovesibutta-desc": "<p>{applink} is an application for the Google Assistant.</p><p>It allows you to find out in which separate collection a particular type of waste should be disposed in. The operation is very simple, just indicate the name of the waste and Dove Si Butta will recommend the most appropriate disposal destination.</p><p>The application was built using the Google Actions Console to achieve user interaction, while the logic is handled by a cloud function that analyses the query and retrieves data from a Firebase instance.</p>",
 	"partycast-date" : "January 2018",
-	"partycast-desc" : "<p>PartyCast is a multiplayer game from 2 to 4 players that uses Google Cast technology and an Android device as a remote control.</p><p>Once the application is installed on their phone, users can connect and play with each other through the use of a TV and a Google Cast device (such as a ChromeCast).</p><p>The goal of the game is to win a series of challenges (mini-games). There are challenges of all kinds, from using the phone's touch screen to blowing, shaking or rotating the device.</p>"
+	"partycast-desc" : "<p>PartyCast is a multiplayer game from 2 to 4 players that uses Google Cast technology and an Android device as a remote control.</p><p>Once the application is installed on their phone, users can connect and play with each other through the use of a TV and a Google Cast device (such as a ChromeCast).</p><p>The goal of the game is to win a series of challenges (mini-games). There are challenges of all kinds, from using the phone's touch screen to blowing, shaking or rotating the device.</p>",
+	"leap-date": "June 2018",
+	"leap-desc": "<p>Publication written in collaboration with the researcher Fabio Poiesi during the internship period at the Bruno Kessler Foundation.</p><p>The publication discusses the results obtained from my thesis project.</p><p>I created a multi-user virtual reality (VR) application for Android smartphones in which people can communicate and interact with each other using their hands, by using the Leap Motion device. In addition, I implemented an UDP-based protocol and studied a series of optimisations in order to make the experience as smooth as possible. {link}{here}</a></p>",
+	"here": "More information is available here."
 	},
 	"it": {
 		"title": "Progetti",
@@ -134,9 +149,12 @@ export default Vue.extend({
 		"coldwar-date":"Gennaio 2021",
 		"coldwar-desc":"<p>Cold war è un semplice puzzle game multigiocatore con lo scopo di simulare l'esperienza di una Escape Room.</p><p>Consiste in un sito esplorabile con all'interno diversi puzzle interattivi da dover risolvere.</p><p>Ogni interazione da parte di un utente è condivisa con tutte le istanze in tempo reale tramite SignalR. Il back-end è gestito da Asp.Net Core mentre il front-end è stato realizzato come progetto Blazor WebAssembly.</p>",
     	"dovesibutta-date": "Settembre 2018",
-		"dovesibutta-desc": "<p>Dove Si Butta è una applicazione per l'Assistente Google.</p><p>Essa permette di scoprire in quale raccolta differenziata va gettato un particolare tipo di rifiuto. Il funzionamento è molto semplice, basta indicare il nome del rifiuto e Dove Si Butta consiglierà la destinazione di smaltimento più adeguata.</p><p>L'applicazione è stata realizzata utilizzando la Google Actions Console per ottenere l'interazione con l'utente, mentre la logica è gestita da una funzione cloud che analizza la query e preleva i dati da una istanza Firebase.</p>",
+		"dovesibutta-desc": "<p>{applink} è una applicazione per l'Assistente Google.</p><p>Essa permette di scoprire in quale raccolta differenziata va gettato un particolare tipo di rifiuto. Il funzionamento è molto semplice, basta indicare il nome del rifiuto e Dove Si Butta consiglierà la destinazione di smaltimento più adeguata.</p><p>L'applicazione è stata realizzata utilizzando la Google Actions Console per ottenere l'interazione con l'utente, mentre la logica è gestita da una funzione cloud che analizza la query e preleva i dati da una istanza Firebase.</p>",
 		"partycast-date" : "Gennaio 2018",
-		"partycast-desc" : "<p>PartyCast è un gioco multigiocatore da 2 a 4 giocatori che utilizza la tecnologia Google Cast e un dispositivo Android come telecomando.</p><p>Gli utenti, una volta installata l'applicazione nel proprio telefono, possono connettersi e giocare tra loro tramite l'uso di una TV e un dispositivo Google Cast (come un ChromeCast).</p><p>Lo scopo del gioco è quello di vincere una serie di sfide (detti minigiochi) affrontate tra utenti. Sono presenti sfide di ogni tipo: dall’usare il touch screen del telefono, al soffiare, allo scuotere o ruotare il dispositivo.</p>"
+		"partycast-desc" : "<p>PartyCast è un gioco multigiocatore da 2 a 4 giocatori che utilizza la tecnologia Google Cast e un dispositivo Android come telecomando.</p><p>Gli utenti, una volta installata l'applicazione nel proprio telefono, possono connettersi e giocare tra loro tramite l'uso di una TV e un dispositivo Google Cast (come un ChromeCast).</p><p>Lo scopo del gioco è quello di vincere una serie di sfide (detti minigiochi) affrontate tra utenti. Sono presenti sfide di ogni tipo: dall’usare il touch screen del telefono, al soffiare, allo scuotere o ruotare il dispositivo.</p>",
+		"leap-date": "Giugno 2018",
+		"leap-desc": "<p>Pubblicazione scritta in collaborazione con il ricercatore Fabio Poiesi durante il periodo di tirocinio presso la Fondazione Bruno Kessler.</p><p>La pubblicazione tratta dei risultati ottenuti dal mio progetto di tesi.</p><p>Ho creato un applicativo in realtà virtuale (VR) multiutente per smartphone Android in cui è possibile communicare e interagire tra persone tramite l'uso delle proprie mani, utilizzando il dispositivo Leap Motion. In aggiunta, ho implementato un protocollo UDP e studiato una serie di ottimizzazioni per rendere l'esperienza il più fluida possibile. {link}{here}</a></p>",
+		"here": "Maggiori informazioni qui."
 	}
 }
 </i18n>

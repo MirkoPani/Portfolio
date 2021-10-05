@@ -52,6 +52,11 @@
 						<TextHighlight>{{$t('desc6-sub3')}}</TextHighlight>
 					</template>
 			</i18n>
+			<i18n path="desc7" tag="p">
+					<template v-slot:suite>
+						<TextHighlight>{{$t('desc7-sub1')}}</TextHighlight>
+					</template>
+			</i18n>
 			<p class="mt-5">{{$t('recent-technologies')}}</p>
 			<ul class="grid grid-cols-2 gap-2 w-3/4 md:w-1/2 list-inside pt-3 mx-auto md:-mx-0 text-green-300 font-bold text-sm text-left">
 				<li>C#</li>
@@ -87,10 +92,19 @@
 				<ul class="list-outside mt-2">
 					<li>{{$t('estek-desc1')}}</li>
 					<li>{{$t('estek-desc2')}} <TechnologyHighlight>C++</TechnologyHighlight>, <TechnologyHighlight>OpenCV</TechnologyHighlight>, <TechnologyHighlight>Qt</TechnologyHighlight>, <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>WPF</TechnologyHighlight></li>
-					<li>{{$t('estek-desc3')}} <TechnologyHighlight>Wordpress</TechnologyHighlight>, <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>Asp.Net Core</TechnologyHighlight>, <TechnologyHighlight>EF Core</TechnologyHighlight>, <TechnologyHighlight>Blazor</TechnologyHighlight>, <TechnologyHighlight>HTML e CSS</TechnologyHighlight></li>
+					<li>{{$t('estek-desc3')}} <TechnologyHighlight>Wordpress</TechnologyHighlight>, <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>Asp.Net Core</TechnologyHighlight>, <TechnologyHighlight>EF Core</TechnologyHighlight>, <TechnologyHighlight>Blazor</TechnologyHighlight>, <TechnologyHighlight>HTML e CSS</TechnologyHighlight>, <TechnologyHighlight>Bootstrap</TechnologyHighlight> </li>
 					<li>{{$t('estek-desc4')}}</li>
 					<li>{{$t('estek-desc5')}} <TechnologyHighlight>Git</TechnologyHighlight>, <TechnologyHighlight>Docker</TechnologyHighlight>, <TechnologyHighlight>Jenkins</TechnologyHighlight>, <TechnologyHighlight>Coverity</TechnologyHighlight>, <TechnologyHighlight>Unit test</TechnologyHighlight>, <TechnologyHighlight>Code coverage</TechnologyHighlight></li>
 					<li>{{$t('estek-desc6')}} <TechnologyHighlight>Agile</TechnologyHighlight>, <TechnologyHighlight>Design Patterns</TechnologyHighlight></li>
+				</ul>
+			</div>
+
+			<div class="py-4">
+				<p class="text-xl">{{$t('laurea-title')}} @ <TextHighlight>{{$t('laurea-place')}}</TextHighlight><span class="ml-2 text-base">{{$t('laurea-date')}}</span></p>
+				<ul class="list-inside mt-2">
+					<li>{{$t('laurea-desc')}}</li>
+					<li><TextHighlight><a class="underline" target="_blank" href="/tesi_Pani.pdf">{{$t('laurea-thesis')}}</a></TextHighlight></li>
+					<li>{{$t('experience-in')}} <TechnologyHighlight>Android</TechnologyHighlight>, <TechnologyHighlight>Javascript</TechnologyHighlight>, <TechnologyHighlight>C++</TechnologyHighlight>, <TechnologyHighlight>SQL</TechnologyHighlight>, <TechnologyHighlight>Java</TechnologyHighlight>, <TechnologyHighlight>HTML e CSS</TechnologyHighlight>, <TechnologyHighlight>Bootstrap</TechnologyHighlight></li>
 				</ul>
 			</div>
 			<div class="py-4">
@@ -104,17 +118,24 @@
 				</ul>
 			</div>
 			<div class="py-4">
-				<p class="text-xl">{{$t('laurea-title')}} @ <TextHighlight>{{$t('laurea-place')}}</TextHighlight></p>
+				<p class="text-xl">{{$t('work-thiene-title')}}<span class="ml-2 text-base">{{$t('work-thiene-date')}}</span></p>
 				<ul class="list-inside mt-2">
-					<li>{{$t('laurea-desc')}}</li>
-					<li><TextHighlight><a class="underline" target="_blank" href="/tesi_Pani.pdf">{{$t('laurea-thesis')}}</a></TextHighlight></li>
-					<li>{{$t('experience-in')}} <TechnologyHighlight>Android</TechnologyHighlight>, <TechnologyHighlight>Javascript</TechnologyHighlight>, <TechnologyHighlight>C++</TechnologyHighlight>, <TechnologyHighlight>SQL</TechnologyHighlight>, <TechnologyHighlight>Java</TechnologyHighlight></li>
+					<li>{{$t('work-thiene-desc')}}</li>
+					<li>{{$t('work-thiene-desc2')}}</li>
+					<li>{{$t('work-thiene-desc3')}}</li>
+					<li>{{$t('experience-in')}} <TechnologyHighlight>Wordpress</TechnologyHighlight></li>
 				</ul>
 			</div>
 			<div class="py-4">
-				<p class="text-xl">{{$t('diploma-title')}} @ <TextHighlight>Istituto Tecnico Tecnologico G. Chilesotti</TextHighlight></p>
+				<p class="text-xl">{{$t('diploma-title')}} @ <TextHighlight>Istituto Tecnico Tecnologico G. Chilesotti</TextHighlight><span class="ml-2 text-base">{{$t('diploma-date')}}</span></p>
 				<ul class="list-inside mt-2">
-					<li>{{$t('experience-in')}} <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>Windows Form</TechnologyHighlight>, <TechnologyHighlight>SQL</TechnologyHighlight>, <TechnologyHighlight>Java</TechnologyHighlight></li>
+					<li>{{$t('experience-in')}} <TechnologyHighlight>C#</TechnologyHighlight>, <TechnologyHighlight>Windows Form</TechnologyHighlight>, <TechnologyHighlight>SQL</TechnologyHighlight>, <TechnologyHighlight>Java</TechnologyHighlight>, <TechnologyHighlight>PHP</TechnologyHighlight>, <TechnologyHighlight>Javascript</TechnologyHighlight>, <TechnologyHighlight>HTML e CSS</TechnologyHighlight>, <TechnologyHighlight>Bootstrap</TechnologyHighlight></li>
+				</ul>
+			</div>
+			<div class="py-4">
+				<p class="text-xl">{{$t('internship-sup-title')}} @ <TextHighlight>{{$t('internship-sup-place')}}</TextHighlight><span class="ml-2 text-base">{{$t('internship-sup-date')}}</span></p>
+				<ul class="list-inside mt-2">
+					<li>{{$t('internship-sup-desc')}}</li>
 				</ul>
 			</div>
 		</div>
@@ -157,14 +178,14 @@ export default Vue.extend({
 {
 	"en": {
 		"professional-experience": "Work and educational experience",
-		"diploma-title": "'Master technician' diploma",
+		"diploma-title": "Secondary School Diploma in IT",
 		"experience-in": "Gained experience in:",
 		"laurea-title": "Computer Science Bachelor Degree",
 		"laurea-place": "University of Trento",
 		"laurea-desc": "Studied and gained experience on: Agile, Unit tests, OOP, algorithms and data structures, Linux",
 		"internship-title": "Internship",
 		"internship-place": "Bruno Kessler Foundation (FBK)",
-		"internship-date" : "(End of 2017 - 2018)",
+		"internship-date" : "(Nov 2017 - Feb 2018)",
 		"estek-title": "Software developer",
 		"estek-date" : "(2018 - Today)",
 		"internship-desc1": "Study and realisation of graduation thesis under the supervision of a researcher",
@@ -195,17 +216,30 @@ export default Vue.extend({
 		"desc6-sub1": "teamwork",
 		"desc6-sub2": "responsibility",
 		"desc6-sub3": "potentialities",
-		"laurea-thesis": "Read my thesis (in english)"
+		"laurea-thesis": "Read my thesis (in english)",
+		"desc7": "Thanks to this experience and my passion for photography, over the years I have become familiar with the {suite}, in particular with Photoshop, Illustrator and Lightroom.",
+		"desc7-sub1": "Adobe suite",
+		"internship-sup-title": "School internship",
+		"internship-sup-place": "Public administration",
+		"internship-sup-desc" : "Software and hardware maintenance in schools and libraries.",
+		"internship-sup-date" : "(July 2013)",
+		"diploma-date" : "(2014)",
+		"laurea-date" : "(2018)",
+		"work-thiene-title" : "Website deployment and setup",
+		"work-thiene-date" : "(June 2014)",
+		"work-thiene-desc" : "Requirements analysis and customer interview",
+		"work-thiene-desc2" : "Set up hosting plan and website creation",
+		"work-thiene-desc3" : "Customisation (themes, pages, users...)"
 	},
 	"it": {
 		"professional-experience": "Esperienza formativa",
 		"diploma-title": "Diploma 'Perito Capotecnico'",
-		"laurea-title": "Laurea in Informatica",
+		"laurea-title": "Laurea in Informatica (L-31)",
 		"laurea-place": "Università degli Studi di Trento",
 		"laurea-desc": "Apprendimento di concetti come: Agile, Unit test, OOP, algoritmi e strutture dati, Linux",
 		"internship-title": "Tirocinio",
 		"internship-place": "Fondazione Bruno Kessler (FBK)",
-		"internship-date" : "(Fine 2017 - 2018)",
+		"internship-date" : "(Nov 2017 - Feb 2018)",
 		"experience-in": "Esperienza in:",
 		"estek-title": "Sviluppatore",
 		"estek-date" : "(2018 - Oggi)",
@@ -237,7 +271,21 @@ export default Vue.extend({
 		"desc6-sub1": "gioco di squadra",
 		"desc6-sub2": "responsabilità",
 		"desc6-sub3": "potenzialità",
-		"laurea-thesis": "Sfoglia la mia tesi (in inglese)"
+		"laurea-thesis": "Sfoglia la mia tesi (in inglese)",
+		"desc7": "Grazie a questa esperienza e alla mia passione per la fotografia, ho acquisito negli anni familiarità nella {suite}, in particolare Photoshop, Illustrator e Lightroom.",
+		"desc7-sub1": "suite Adobe",
+		"internship-sup-title": "Tirocinio scolastico",
+		"internship-sup-place": "Pubblica amministrazione",
+		"internship-sup-desc" : "Manutenzione software e hardware presso scuole e biblioteche.",
+		"internship-sup-date" : "(Luglio 2013)",
+		"diploma-date" : "(2014)",
+		"laurea-date" : "(2018)",
+		"work-thiene-title" : "Sviluppo e setup sito web",
+		"work-thiene-date" : "(Giugno 2014)",
+		"work-thiene-desc" : "Analisi dei requisiti e intervista al cliente",
+		"work-thiene-desc2" : "Scelta del piano di hosting e creazione del sito",
+		"work-thiene-desc3" : "Personalizzazione del sito (temi, pagine, utenti...)"
+		
 
 	}
 }

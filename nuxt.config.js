@@ -10,10 +10,11 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=0.8' },
       { hid: 'description', name: 'description', content: 'Sito portfolio dello sviluppatore software Mirko Pani, Vicenza' },
       { name: 'format-detection', content: 'telephone=no' },
-	  { hid: 'keywords', name: 'keywords', content: 'mirko, pani, sviluppo, sviluppatore, development, software, vicenza, veneto, asp.net, blazor, c#' }
+	  { hid: 'keywords', name: 'keywords', content: 'mirko, pani, sviluppo, sviluppatore, development, software, vicenza, veneto, asp.net, blazor, c#' },
+	  { name:'robots', content:'index, follow'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

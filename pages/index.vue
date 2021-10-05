@@ -16,7 +16,7 @@ export default Vue.extend({
 			return {
 				pageTitle: 'Mirko Pani - Portfolio',
 				heroTitle: `<span class="align-middle">${this.$t('hello')}</span> <img class="h-20 inline" src="${require("~/assets/icons/hand.svg")}" />!`,
-				heroSubtitle : `${this.$t('name')} <span class="text-green-300 font-bold">Mirko Pani</span>.`
+				heroSubtitle : `${this.$t('name')} <span class="block md:inline"><span class="text-green-300 font-bold">Mirko Pani</span>.</span>`
 			}
 		},
 		head(): any {

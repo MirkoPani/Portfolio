@@ -18,7 +18,7 @@
   >
     <div class="p-4">
       <div :class="proj.BgColor" class="rounded-xl h-64 flex">
-        <img :src="proj.ImgSrc" class="px-3 mx-auto my-auto max-h-64" />
+        <img :src="proj.ImgSrc" class="px-3 mx-auto my-auto max-h-64" alt="Project logo or image"/>
       </div>
     </div>
     <div class="flex justify-between p-6 pb-2 h-20">
