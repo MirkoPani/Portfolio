@@ -77,7 +77,7 @@
 				</i18n>
 			</p>
 		
-			<a href="" target="_blank" class="text-center mt-10 border md:w-1/3 self-center border-green-300 p-4 rounded-lg text-green-300"><button>{{$t('curriculum-btn')}}</button></a>
+			<a href="/cv_Pani_it.pdf" target="_blank" class="text-center mt-10 border md:w-1/3 self-center border-green-300 p-4 rounded-lg text-green-300"><button>{{$t('curriculum-btn')}}</button></a>
 		
 		</div>
 		<div class="order-1 lg:order-2 lg:w-1/3">

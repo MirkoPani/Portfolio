@@ -27,7 +27,7 @@
           </p>
         </div>
         <div class="mt-5 md:mt-0">
-          <Social v-bind:cv="true" url="todo"
+          <Social v-bind:cv="true" url="/cv_Pani_it.pdf"
             ><svg
               width="24"
               height="24"
