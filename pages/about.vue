@@ -88,6 +88,14 @@
 		<p class="text-4xl text-gray-200">{{$t('professional-experience')}}</p>
 		<div>
 			<div class="py-4">
+				<p class="text-xl">{{$t('treebyte-title')}} @ <TextHighlight><a target="_blank" href="https://treebyte.com/">treebyte</a></TextHighlight><span class="ml-2 text-base">{{$t('treebyte-date')}}</span></p>
+				<ul class="list-outside mt-2">
+					<li>{{$t('treebyte-desc1')}}</li>
+					<li>{{$t('treebyte-desc2')}} <TechnologyHighlight>Python</TechnologyHighlight>, <TechnologyHighlight>Flask + SqlAlchemy</TechnologyHighlight>, <TechnologyHighlight>Angular</TechnologyHighlight>, <TechnologyHighlight>Typescript</TechnologyHighlight>, <TechnologyHighlight>Docker</TechnologyHighlight></li>
+				</ul>
+			</div>
+
+			<div class="py-4">
 				<p class="text-xl">{{$t('estek-title')}} @ <TextHighlight><a target="_blank" href="https://www.es-tek.it/">Es-Tek</a></TextHighlight><span class="ml-2 text-base">{{$t('estek-date')}}</span></p>
 				<ul class="list-outside mt-2">
 					<li>{{$t('estek-desc1')}}</li>
@@ -187,11 +195,15 @@ export default Vue.extend({
 		"internship-place": "Bruno Kessler Foundation (FBK)",
 		"internship-date" : "(Nov 2017 - Feb 2018)",
 		"estek-title": "Software developer",
-		"estek-date" : "(2018 - Today)",
+		"estek-date" : "(2018 - 2021)",
 		"internship-desc1": "Study and realisation of graduation thesis under the supervision of a researcher",
 		"internship-desc2": "Implemented a proof of concept for the transmission of data obtained from a Leap Motion device in a multi-user virtual reality (VR) environment on a smartphone.",
 		"internship-desc3": "Study and implementation of optimisation techniques for data transmission via LOD (Level of Detail)",
 		"internship-desc4": "From the results obtained, collaborated on a scientific paper in English, which was discussed at a conference and subsequently published in a journal, entitled ",
+		"treebyte-title": "Full-stack software developer",
+		"treebyte-date": "(2022 - Today)",
+		"treebyte-desc1":"Worked with a team of developers on existing and new software, developing new features and integrations with third party applications.",
+		"treebyte-desc2":"Used a multitude of languages, platforms and frameworks for web development:",
 		"estek-desc1":"Worked with an international team of developers on existing software, integrating new features and bug fixes",
 		"estek-desc2":"Used a multitude of languages, platforms and frameworks for desktop applications, CAD and quality control software development:",
 		"estek-desc3":"Used a multitude of languages, platforms and frameworks for web applications:",
@@ -242,11 +254,15 @@ export default Vue.extend({
 		"internship-date" : "(Nov 2017 - Feb 2018)",
 		"experience-in": "Esperienza in:",
 		"estek-title": "Sviluppatore",
-		"estek-date" : "(2018 - Oggi)",
+		"estek-date" : "(2018 - 2021)",
 		"internship-desc1": "Studio e realizzazione tesi di laurea sotto la supervisione di un ricercatore",
 		"internship-desc2": "Implementato un proof of concept per la trasmissione di dati ottenuti da un dispositivo Leap Motion in un ambiente a realtà virtuale (VR) multiutente su smartphone.",
 		"internship-desc3": "Studio e realizzazione di tecniche di ottimizzazione per la tramissione di dati tramite LOD (Level of Detail)",
 		"internship-desc4": "Dai risultati ottenuti, collaborato alla stesura di un paper scientifico in inglese, discusso ad una conferenza e successivamente pubblicato in una rivista, dal titolo ",
+		"treebyte-title": "Sviluppatore software full-stack",
+		"treebyte-date": "(2022 - Oggi)",
+		"treebyte-desc1":"Collaborazione con un team di sviluppatori per lo sviluppo di software nuovi e già esistenti, ideando nuove funzionalità e integrazioni con servizi di terze parti.",
+		"treebyte-desc2":"Utilizzato una moltitudine di linguaggi, piattaforme e framework per lo sviluppo di applicazioni web:",
 		"estek-desc1":"Collaborazione con un team di sviluppatori internazionale su software già esistenti, integrando nuove funzionalità e bug fix",
 		"estek-desc2":"Utilizzato una moltitudine di linguaggi, piattaforme e framework in ambito client per lo sviluppo di software per il settore CAD e controllo qualità:",
 		"estek-desc3":"Utilizzato una moltitudine di linguaggi, piattaforme e framework in ambito web:",
