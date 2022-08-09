@@ -5,8 +5,8 @@
         v-if="post.image"
         class="rounded-lg col-start-3 w-full"
         :src="post.image"
-        width="700"
-        height="400"
+        width="1920"
+        height="850"
       />
       <div class="w-full">
         <div class="">
@@ -27,7 +27,7 @@
           </div>
 
 
-          <nuxt-content class="mt-4 prose prose-invert max-w-none py-8 sm:py-12" :document="post" />
+          <nuxt-content class="mt-4 prose prose-invert prose-code:text-sky-600 max-w-none py-8 sm:py-12" :document="post" />
         </div>
       </div>
 
@@ -41,6 +41,13 @@
   </div>
 
 </template>
+
+<style>
+.token.operator {
+  background: none !important;
+}
+</style>
+
 <script>
 export default {
   layout: 'blog',

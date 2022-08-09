@@ -85,7 +85,8 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@/modules/generator'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -132,7 +133,13 @@ export default {
 	  height:'5px'
   },
   sitemap: {
-	  hostname: 'https://mirkopani.me'
+	  hostname: 'https://mirkopani.me',
+    gzip: true,
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    }
   },
   image: {
     screens: {
@@ -154,5 +161,8 @@ export default {
         },
       },
     },
+  },
+  tailwindcss: {
+    injectPosition: 'last'
   }
 }

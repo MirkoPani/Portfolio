@@ -15,7 +15,7 @@
 export default {
   async asyncData ({ $content, app }) {
     const posts = await $content(app.i18n.locale)
-      .only(['title', 'image', 'tags', 'slug','date'])
+      .only(['title', 'image', 'tags', 'slug','date','path'])
       .sortBy('createdAt', 'desc')
       .fetch()
 
