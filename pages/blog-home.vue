@@ -26,6 +26,17 @@ export default {
         path: posts.path.replace(`/${app.i18n.locale}`, '/blog'),
       }))
     }
+  },
+  head () {
+    return {
+      title: 'Blog',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Mirko Pani Blog' },
+        { hid: 'keywords', name: 'keywords', content: 'blog, articles, tutorials, development, software, sviluppo, ' }
+      ]
+    }
   }
 }
 </script>

@@ -84,7 +84,7 @@ export default Vue.extend({
           ImgSrc: require("../assets/img/leap.jpg"),
           Title: "Distributed Data Exchange with Leap Motion",
           Date: this.$t("leap-date"),
-          Desc: this.$t("leap-desc", 
+          Desc: this.$t("leap-desc",
 		  {
 			'link': '<a target="_blank" class="font-bold text-green-500 underline" href="https://tev.fbk.eu/distributedLeapMotion">',
 		  	'here': this.$t("here")
@@ -107,6 +107,12 @@ export default Vue.extend({
   head(): any {
     return {
       title: this.pageTitle,
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Mirko Pani dev personal projects' },
+        { hid: 'keywords', name: 'keywords', content: 'mirko,pani,personal,projects,software,development,dev' }
+      ]
     };
   },
 });

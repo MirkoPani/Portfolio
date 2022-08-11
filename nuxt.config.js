@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=0.9' },
-      { hid: 'description', name: 'description', content: 'Sito portfolio dello sviluppatore software Mirko Pani, Vicenza' },
+      { hid: 'description', name: 'description', content: 'Mirko Pani\' personal portfolio as a software developer, Vicenza' },
 	  { hid: 'keywords', name: 'keywords', content: 'mirko, pani, sviluppo, sviluppatore, development, software, vicenza, veneto, asp.net, blazor, c#, angular, blog, it' },
 	  { name:'robots', content:'index, follow'},
       { property: "og:site_name", content: "Mirko Pani Portfolio" },

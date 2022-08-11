@@ -26,15 +26,15 @@
 					<template v-slot:sub1>
 						<TextHighlight>{{$t('desc5-sub1')}}</TextHighlight>
 					</template>
-					
+
 					<template v-slot:sub2>
 						<TextHighlight>{{$t('desc5-sub2')}}</TextHighlight>
 					</template>
-					
+
 					<template v-slot:sub3>
 						<TextHighlight>{{$t('desc5-sub3')}}</TextHighlight>
 					</template>
-					
+
 					<template v-slot:sub4>
 						<TextHighlight>{{$t('desc5-sub4')}}</TextHighlight>
 					</template>
@@ -43,11 +43,11 @@
 					<template v-slot:sub1>
 						<TextHighlight>{{$t('desc6-sub1')}}</TextHighlight>
 					</template>
-					
+
 					<template v-slot:sub2>
 						<TextHighlight>{{$t('desc6-sub2')}}</TextHighlight>
 					</template>
-					
+
 					<template v-slot:sub3>
 						<TextHighlight>{{$t('desc6-sub3')}}</TextHighlight>
 					</template>
@@ -76,9 +76,9 @@
 					</template>
 				</i18n>
 			</p>
-		
+
 			<a href="/cv_Pani_it.pdf" target="_blank" class="text-center mt-10 border md:w-1/3 self-center border-green-300 p-4 rounded-lg text-green-300"><button>{{$t('curriculum-btn')}}</button></a>
-		
+
 		</div>
 		<div class="order-1 lg:order-2 lg:w-1/3">
 			<img class="rounded-md h-80 lg:h-96 mx-auto" src="~/assets/img/me.jpg" alt="a personal portrait of myself" />
@@ -175,7 +175,13 @@ export default Vue.extend({
     },
     head(): any {
       return {
-        title: this.pageTitle
+        title: this.pageTitle,
+        meta: [
+          { charset: 'utf-8' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+          { hid: 'description', name: 'description', content: 'About Mirko Pani' },
+          { hid: 'keywords', name: 'keywords', content: 'about, mirko, pani, vicenza, tutorials, development, software' }
+        ]
       }
     }
 })
@@ -301,7 +307,7 @@ export default Vue.extend({
 		"work-thiene-desc" : "Analisi dei requisiti e intervista al cliente",
 		"work-thiene-desc2" : "Scelta del piano di hosting e creazione del sito",
 		"work-thiene-desc3" : "Personalizzazione del sito (temi, pagine, utenti...)"
-		
+
 
 	}
 }
